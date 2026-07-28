@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las estrellas también te conocen ✨</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Fondo -->
+
+    <div id="globalMemories"></div>
+
+    <div id="stars"></div>
+
+    <!-- =========================================
+     HERO CINEMATOGRÁFICO
+==========================================-->
+
+<section id="hero">
+
+    <!-- Fondo -->
+    <div id="space"></div>
+    <div id="nebula"></div>
+    <div id="starsLayer"></div>
+    <div id="particles"></div>
+
+    <!-- Halo -->
+    <div id="photoGlow"></div>
+
+    <!-- FOTO -->
+
+    <div id="photoContainer">
+
+        <img
+        id="heroPhoto"
+        src="img/foto-portada.jpg"
+        alt="Katling">
+
+    </div>
+
+    <!-- Texto -->
+
+    <div id="intro">
+
+        <p id="text1"></p>
+
+        <p id="text2"></p>
+
+        <div id="line"></div>
+
+        <h1 id="title">
+
+            Feliz cumpleaños
+
+        </h1>
+
+        <h2 id="name">
+
+            Katling ❤️
+
+        </h2>
+
+        <button id="startJourney">
+
+            ✨ Comenzar el viaje
+
+        </button>
+
+    </div>
+
+</section>
+
+    <!-- Música -->
+
+<section class="music section">
+
+    <h2>🎵 Una serenata para ti </h2>
+
+    <img src="img/portada.jpg" class="cover">
+
+    <div class="music-player">
+
+    <button id="playButton">▶</button>
+
+    <div class="song-info">
+
+        <h3>Un concierto para ti ❤️</h3>
+
+        <p>Camilo Sesto • Tu cantante favorito ✨</p>
+
+
+        <div class="wave">
+
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+
+        <input 
+        type="range" 
+        id="progress"
+        value="0">
+
+
+        <div class="time">
+
+            <span id="currentTime">0:00</span>
+
+            <span id="duration">0:00</span>
+
+        </div>
+
+
+    </div>
+
+
+    <audio id="music">
+
+        <source src="music/Melina-El-Amor-de-Mi-Vida.mp3" type="audio/mpeg">
+
+    </audio>
+
+</div>
+
+    </audio>
+
+   </section>
+
+    <!-- Galería -->
+
+    <section class="gallery section">
+
+        <h2>📸 Tus recuerdos</h2>
+
+        <div class="photos">
+
+            <img src="img/foto1.jpg">
+
+            <img src="img/foto2.jpg">
+
+            <img src="img/foto3.jpg">
+
+            <img src="img/foto4.jpg">
+
+            <img src="img/foto5.jpg">
+
+            <img src="img/foto6.jpg">
+
+            <img src="img/collage.jpg">
+
+            <img src="img/foto8.jpg">
+
+            <img src="img/foto9.jpg">
+
+            <img src="img/foto7.jpg">
+
+        </div>
+
+    </section>
+
+    <!-- Universo -->
+
+    <section class="cards section">
+
+        <h2>🌌 El universo de Katling</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                🌲
+                <h3>Naturaleza</h3>
+                <p>Siempre encuentras paz entre árboles y montañas.</p>
+            </div>
+
+            <div class="card">
+                ⭐
+                <h3>Sueños</h3>
+                <p>Nunca dejas de luchar por aquello que deseas.</p>
+            </div>
+
+            <div class="card">
+                ❤️
+                <h3>Corazón</h3>
+                <p>Tu bondad habla incluso cuando guardas silencio.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+<!-- CONSTELACIÓN DE RECUERDOS -->
+
+<section class="section">
+
+    <h2>🌌 Constelación de recuerdos</h2>
+
+    <p class="game-description">
+        Toca cada estrella y descubre los mensajes escondidos ✨
+    </p>
+
+
+    <div id="constellation">
+
+        <div id="memoryMessage">
+            
+            Toca una estrella ⭐
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Carta -->
+
+    <section class="letter section">
+
+        <h2>💌 Una carta para ti</h2>
+
+        <div id="letter" class="closed">
+
+    <div class="letter-cover">
+        💌
+    </div>
+
+    <div class="letter-content">
+
+ <h1>Feliz cumpleaños, Katling. ❤️</h1>
+
+<p>
+Hoy no solo quiero desearte un feliz cumpleaños, sino recordarte lo especial que eres. Que este nuevo año de vida te regale mucha salud, paz, amor y momentos inolvidables junto a las personas que más quieres.
+</p>
+
+<p>
+Deseo de todo corazón que nunca pierdas esa forma tan bonita de ser: tu alegría, tu nobleza, tu inteligencia, tu fuerza para salir adelante y esa luz que llevas contigo, aunque quizá a veces no te des cuenta de cuánto ilumina a quienes te rodean.
+</p>
+
+<p>
+Que cada sueño por el que trabajas encuentre su momento, que cada meta se convierta en realidad y que nunca te falten motivos para sonreír, viajar, descubrir nuevos lugares, vivir nuevas aventuras y seguir construyendo la vida que tanto mereces.
+</p>
+
+<p>
+También deseo que, cuando lleguen los días difíciles, nunca olvides lo valiosa que eres. Que Dios te tome siempre de la mano, te proteja, cuide de tus pasos y te abra caminos llenos de bendiciones, personas sinceras y oportunidades para seguir creciendo.
+</p>
+
+<p>
+Gracias por ser tú. Porque más allá de lo bonita que eres por fuera, lo que más admiro es la persona que hay en tu corazón: una mujer auténtica, trabajadora, amable y con una esencia que vale muchísimo.
+</p>
+
+<p>
+Nunca dejes de soñar, porque las personas que luchan por sus sueños terminan dejando huellas en el mundo.
+</p>
+
+<p>
+Feliz cumpleaños, Katling. Que Dios bendiga cada día de tu vida y que este nuevo capítulo sea aún más hermoso que el anterior. 🎂🤍
+</p>
+
+        </div>
+
+    </section>
+
+<!-- ==========================================
+     EL CIELO RESPONDE
+========================================== -->
+
+<section class="section" id="skyResponse">
+
+    <h2>🌌 El cielo responde</h2>
+
+    <p class="subtitle">
+        Toca cada estrella y descubre los mensajes que guardan para ti ✨
+    </p>
+
+
+    <div id="skyBox">
+
+
+        <div class="response-star" 
+        data-message="⭐ Hay personas que llegan a nuestra vida y dejan una luz imposible de olvidar.">
+        </div>
+
+
+        <div class="response-star" 
+        data-message="🌙 Algunos momentos pequeños terminan convirtiéndose en recuerdos enormes.">
+        </div>
+
+
+        <div class="response-star" 
+        data-message="💙 La verdadera magia está en las personas que hacen especial cada instante.">
+        </div>
+
+
+        <div class="response-star" 
+        data-message="✨ Cada sueño merece un cielo donde pueda crecer y brillar.">
+        </div>
+
+
+        <div class="response-star" 
+        data-message="🌌 Algunas estrellas no están arriba... están en quienes iluminan nuestro camino.">
+        </div>
+
+
+        <div id="skyMessage">
+
+            Toca una estrella ⭐
+
+        </div>
+
+
+        <div id="finalStar">
+
+            ✨
+
+        </div>
+
+
+    </div>
+
+  </section>
+
+    <!-- Razones -->
+
+    <section class="reason section">
+
+        <h2>✨ Descubre una razón</h2>
+
+        <button id="reasonButton">
+
+            Ver una razón
+
+        </button>
+
+        <p id="reasonText">
+
+            Presiona el botón.
+
+        </p>
+
+    </section>
+
+    <!-- ==========================================
+     NUESTRA HISTORIA
+========================================== -->
+
+<section class="section story-section">
+
+    <h2>🌌 Un pequeño viaje por las estrellas</h2>
+
+    <p class="story-intro">
+        Cada estrella guarda un momento,
+        cada momento una historia...
+        y esta comenzó el día en que apareciste.
+    </p>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <div class="timeline-icon">⭐</div>
+
+            <div class="timeline-content">
+                <h3>Todo comenzó con una estrella...</h3>
+
+                <p>
+                    Dicen que algunas personas llegan por casualidad,
+                    pero hay encuentros que parecen escritos por el universo.
+                    Sin saberlo, una estrella comenzó esta historia.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-icon">🌙</div>
+
+            <div class="timeline-content">
+                <h3>Conocí a una persona...</h3>
+
+                <p>
+                    Poco a poco descubrí a alguien diferente.
+                    Una persona con una sonrisa bonita,
+                    con sueños enormes y una manera muy especial
+                    de hacer sentir bien a quienes la rodean.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-icon">🌸</div>
+
+            <div class="timeline-content">
+                <h3>Descubrí sus sueños...</h3>
+
+                <p>
+                    Aprendí que eres alguien que nunca deja
+                    de luchar por aquello que quiere.
+                    Que cada meta representa un nuevo reto
+                    y que siempre encuentras una razón para seguir.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-icon">🌿</div>
+
+            <div class="timeline-content">
+
+                <h3>Aprendí sus gustos...</h3>
+
+                <div class="likes">
+
+                    <span>🌲 Naturaleza</span>
+
+                    <span>🎬 Interstellar</span>
+
+                    <span>⚔️ Attack on Titan</span>
+
+                    <span>🎮 Clash Royale</span>
+
+                    <span>🎮 Clash of clans</span>
+
+                    <span>🎮 Survivor.io</span>
+
+                    <span>🎵 Música</span>
+
+                    <span>📷 Fotografía</span>
+
+                    <span>✈️ Viajar</span>
+
+                    <span>🍜 Comida vietnamita</span>
+
+                    <span>💪 Deporte</span>
+
+                </div>
+
+                <p>
+                    Poco a poco cada pequeño detalle
+                    fue formando el universo que hoy quiero celebrar.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="timeline-item">
+
+            <div class="timeline-icon">❤️</div>
+
+            <div class="timeline-content">
+
+                <h3>Entendí por qué eres especial...</h3>
+
+                <p>
+                    Entonces comprendí que lo más bonito
+                    no son solamente tus gustos,
+                    sino la persona que eres.
+                </p>
+
+                <div class="qualities">
+
+                    <span>Tierna</span>
+                    <span>Inteligente</span>
+                    <span>Trabajadora</span>
+                    <span>Alegre</span>
+                    <span>Amable</span>
+                    <span>Auténtica</span>
+                    <span>Valiente</span>
+                    <span>Soñadora</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item final-story">
+
+            <div class="timeline-icon">🎂</div>
+
+            <div class="timeline-content">
+
+                <h3>Hoy celebramos un año más de tu vida...</h3>
+
+                <p>
+                    Hoy no solamente celebramos un cumpleaños.
+                    Celebramos a la increíble persona que eres,
+                    todo lo que has conseguido,
+                    todo lo que has superado
+                    y todos los sueños que todavía están por cumplirse.
+                </p>
+
+                <h4 class="final-message">
+
+                    ✨ Feliz cumpleaños, Katling. ✨
+
+                </h4>
+
+            </div>
+
+        </div>
+
+</section>
+
+    <!-- Final -->
+    
+    <!-- JUEGO ATRAPA LAS ESTRELLAS -->
+
+<section class="section game-section">
+
+    <h2>⭐ Atrapa las estrellas</h2>
+
+    <p class="game-description">
+        Atrapa las estrellas que aparecen en el cielo y descubre un mensaje especial ✨
+    </p>
+
+
+    <div id="starGame">
+
+        <div id="score">
+            Estrellas encontradas: 0 ⭐
+        </div>
+
+
+        <button id="startGame">
+            🌠 Comenzar juego
+        </button>
+
+
+        <div id="gameMessage"></div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+     UNIVERSO DE PEQUEÑOS DETALLES
+=========================================== -->
+
+<section id="memoryUniverse" class="section">
+
+<div id="memoryPhotos"></div>
+
+
+    <h2>✨ Un universo hecho de pequeños detalles</h2>
+
+    <p class="universe-subtitle">
+        Cada pequeña cosa que conocí sobre ti terminó formando un universo.
+        Toca cada elemento para descubrir por qué está aquí.
+    </p>
+
+    <div id="universe">
+
+        <div class="planet-item" data-id="interstellar">
+            <span>🌌</span>
+            <small>Interstellar</small>
+        </div>
+
+        <div class="planet-item" data-id="aot">
+            <span>⚔️</span>
+            <small>Attack on Titan</small>
+        </div>
+
+        <div class="planet-item" data-id="nature">
+            <span>🌿</span>
+            <small>Naturaleza</small>
+        </div>
+
+        <div class="planet-item" data-id="clash">
+            <span>👑</span>
+            <small>Clash Royale</small>
+        </div>
+
+        <div class="planet-item" data-id="travel">
+            <span>✈️</span>
+            <small>Viajes</small>
+        </div>
+
+        <div class="planet-item" data-id="music">
+            <span>🎵</span>
+            <small>Música</small>
+        </div>
+
+        <div class="planet-item" data-id="photo">
+            <span>📷</span>
+            <small>Fotografía</small>
+        </div>
+
+        <div class="planet-item" data-id="flowers">
+            <span>🌹</span>
+            <small>Rosas</small>
+        </div>
+
+        <div class="planet-item" data-id="survivor">
+            <span>🎮</span>
+            <small>Survivor.io</small>
+        </div>
+
+        <div class="planet-item center-heart">
+            ❤️
+        </div>
+
+    </div>
+
+</section>
+
+    <section class="end">
+
+
+        </p>
+
+<div class="finalGift">
+
+    <div class="giftStars"></div>
+
+    <h2>🎁 Un último regalo para ti</h2>
+
+    <p class="giftText">
+        Si llegaste hasta aquí significa que recorriste cada pequeño rincón de este universo.
+        Cada fotografía, cada estrella, cada recuerdo y cada palabra tenían un solo propósito...
+        hacerte sonreír.
+    </p>
+
+    <p class="giftText">
+        Pero todavía quedaba algo...
+        Un pequeño regalo que quise dejar únicamente para el final.
+    </p>
+
+    <!-- ========================= -->
+    <!-- PRIMERA CANCIÓN -->
+    <!-- ========================= -->
+
+    <h3>🎵 Las estrellas también te conocen</h3>
+
+    <p>Una canción hecha especialmente para ti ❤️</p>
+
+    <img
+        src="img/portada-cancion.jpg"
+        class="giftCover"
+        alt="Las estrellas también te conocen">
+
+    <div class="giftMusicPlayer">
+
+        <button id="giftPlay">▶</button>
+
+        <div class="giftInfo">
+
+            <strong>Las estrellas también te conocen</strong>
+
+            <small>Un regalo para Katling ❤️</small>
+
+            <input
+                type="range"
+                id="giftProgress"
+                value="0">
+
+            <div class="giftTimes">
+                <span id="giftCurrent">0:00</span>
+                <span id="giftDuration">0:00</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <audio id="giftAudio">
+        <source
+            src="music/las-estrellas-tambien-te-conocen.mp3"
+            type="audio/mpeg">
+    </audio>
+
+
+    <!-- MENSAJE ENTRE CANCIONES -->
+
+    <div id="secondSong"
+         style="display:none;margin-top:80px;">
+
+        <div class="songDivider">
+            <span></span>
+            ✨
+            <span></span>
+        </div>
+
+        <h2>🌸 Capítulo II</h2>
+
+        <p class="secondIntro">
+            Pensabas que aquí terminaba...
+            <br><br>
+            Pero todavía quería dejarte una última canción.
+        </p>
+
+        <img
+            src="img/portada-florece.jpg"
+            class="giftCover secondCover"
+            alt="Donde siempre florece tu luz">
+
+        <div class="giftMusicPlayer">
+
+            <button id="giftPlay2">▶</button>
+
+            <div class="giftInfo">
+
+                <strong>Donde siempre florece tu luz</strong>
+
+                <small>La última canción para ti ❤️</small>
+
+                <input
+                    type="range"
+                    id="giftProgress2"
+                    value="0">
+
+                <div class="giftTimes">
+                    <span id="giftCurrent2">0:00</span>
+                    <span id="giftDuration2">0:00</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <audio id="giftAudio2">
+            <source
+                src="music/donde-siempre-florece-tu-luz.mp3"
+                type="audio/mpeg">
+        </audio>
+
+    </div>
+
+    <p class="giftEnd">
+        ✨<br><br>
+        Nunca dejes de brillar.<br>
+        Feliz cumpleaños Katling ❤️
+    </p>
+
+</div>
+
+</div>
+
+    </section>
+<!-- ===================================================
+     FINAL CINEMATOGRÁFICO
+=================================================== -->
+
+<div id="universeEnding">
+
+    <div id="endingBackground"></div>
+
+<canvas id="universeCanvas"></canvas>
+
+    <div id="endingContent">
+
+        <div id="introEnding"></div>
+
+        <h2 id="endingText"></h2>
+
+        <canvas id="starCanvas"></canvas>
+
+        <div id="finalHeart"></div>
+
+        <div id="endingCredits">
+
+            <h1>Gracias por existir.</h1>
+
+            <p>Nunca dejes de brillar ✨</p>
+
+            <small>Con cariño...</small>
+
+            <h2>Manases ❤️</h2>
+
+            <button id="restartJourney">
+
+                ✨ Volver a recorrer este pequeño universo
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- =========================================
+     LA ÚLTIMA ESTRELLA
+========================================== -->
+
+<section class="section" id="lastStarSection">
+
+    <div class="lastStarContainer">
+
+        <div id="lastStar">
+
+            ⭐
+
+        </div>
+
+        <h2>Aún queda una última estrella...</h2>
+
+        <p>
+            Tócala y deja que el universo termine de hablar.
+        </p>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+<script src="memoryUniverse.js"></script>
+
+
+</body>
+</html>
